@@ -1,0 +1,11 @@
+.selectorcon{
+    width:30vw;
+    height: 30px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 0px 10px;
+    margin-right: 20px;
+}
+.optioncon{
+    height: 40px;
+}

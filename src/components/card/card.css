@@ -1,0 +1,24 @@
+.SimpleCard{
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    border: 2px solid azure;
+    background-color: rgba(240, 255, 255, 0.217);
+    transition:3s;
+    overflow: hidden;
+}
+.SimpleCard:hover{
+    background-color: rgba(255, 255, 255, 0.755);
+    transition:3s;
+}
+.cardImage{
+    width:100%;
+    height: 100%;
+    transform: scale(1.1);
+    transition:.6s;
+
+}
+.cardImage:hover{
+    transform: scale(2.1);
+    transition:.6s;
+}

@@ -1,0 +1,17 @@
+.serachROwContainer{
+    width:94vw;
+    /* background-color: red; */
+    margin-bottom: 10px;
+}
+
+.searchBox{
+    width:30vw;
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 4px;
+
+}
+.searchBox:focus{
+    /* background-color: transparent; */
+    border-color: balck;
+}

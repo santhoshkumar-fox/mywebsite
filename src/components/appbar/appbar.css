@@ -1,0 +1,57 @@
+.appbarCon{
+    width:100vw;
+    height: 50px;
+    position:absolute;
+    top:0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.appTitle{
+   font-size: 30px;
+   font-weight: 600;
+
+}
+.appbarRightCon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.statusCardCon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+}
+.statusCardCon{
+  font-size: 15px;
+  color: grey;
+  margin-left: 20px;
+}
+.cardActive{
+    font-size: 15px;
+    margin-left: 20px;
+    color: green;
+}
+.cardDeactive{
+    font-size: 15px;
+    color: red;
+    margin-left: 20px;
+}
+.cardUnchaned{
+    font-size: 15px;
+    color: grey;
+    margin-left: 20px;
+}
+.cardvalue{
+    margin-left: 10px;
+    font-weight: 400;
+}
+.cardKey{
+    font-weight: 600;
+}
+

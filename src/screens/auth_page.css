@@ -1,0 +1,11 @@
+.logincardCon{
+    width:30vw;
+    height: 20vw;
+    background-color:whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}

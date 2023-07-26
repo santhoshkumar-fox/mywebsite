@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&family=Poppins:ital,wght@0,200;0,400;0,600;1,100&display=swap');
+
+
+:root{
+    --header-height:3rem;
+    --body-fomt:"Poppins";
+}
+div{
+    cursor: url(https://png.pngtree.com/png-vector/20210228/ourmid/pngtree-white-circle-background-png-image_2975665.jpg) auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+    background-color: red;
+    border: 25px solid blue;
+    width: 500px;
+    height: 300px;
+    padding: 25px;
+    margin-top: 20px;
+}
+.boxOne{
+    box-sizing:border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/* -------- BASE CSS -------- */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: var(--body-fomt);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+img{
+    width: 100%;
+    height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+
+.AppContainer{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(7, 106, 139);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SimpleCard12{
+    width: 100px;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: azure;
+}
+.PageContainer{
+    height: 100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* FONT STYLES */
+.headline01{
+    font-family: var(--body-fomt);
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight:bolder;
+    color: black; 
+    text-decoration: none; 
 }
+.label01{
+    font-family: var(--body-fomt);
+    font-size: 20px;
+    font-weight: 500;
+    color: black;  
+}
+
+
+.mainContainer{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgb(228, 226, 226);
+    padding-top: 50px;
+    /* background: url("https://images.unsplash.com/photo-1623058453866-b1a65f669a34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80") center / cover ; */
+}
+
+
+
+
+
