@@ -19,7 +19,6 @@ function Auth_page() {
   }
   const onSubmitCallback = async(userData)=>{
     try{
-     
       setisLoading(true)
       const value =  await signInWithEmailAndPassword(auth,userData?.email,userData.password)
       console.log("🔽",value.operationType);

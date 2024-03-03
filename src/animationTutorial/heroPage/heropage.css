@@ -1,0 +1,77 @@
+.HeroPageContainer{
+    width:100vw;
+    height: 100vh;
+    background-color:white;
+    display: flex;
+}
+.header_content{
+    height: 40px;
+    /* margin-bottom: 5px; */
+    overflow: hidden;
+}
+.heroPage_container1{
+    display: flex;
+    flex: 1.1;
+    background-color: white;
+    align-items:flex-start;
+    justify-content: center;
+    padding:0px 10vw;
+    flex-direction: column;
+}
+.header_subcontent{
+   overflow: hidden;
+   margin-top: 30px;
+   margin-bottom: 60px;
+}
+
+.heroPage_container2{
+    display: flex;
+    flex: 1;
+    background-color:rgba(218, 218, 218, 0.145);
+    position: relative;
+}
+.heroPageImageContainer{
+    width:300px;
+    height:450px;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 1;
+
+}
+
+
+
+.herpageButtonContainer{
+    width:140px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    /* transition: 100ms all ease; */
+
+}
+.herpageButtonContainerText{
+    color: white;
+}
+.herpageButtonContainer i{
+    color: white;
+}
+
+
+.herpageButtonContainer:hover {
+    transition: 100ms all ease;
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    > .herpageButtonContainerText{
+        color: black;
+    }
+    > i{
+        color: black;
+    }
+   
+}
+/* .herpageButtonContainer:hover  */

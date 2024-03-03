@@ -1,0 +1,54 @@
+.mountainScreenContainer{
+    width:100vw;
+    height: 100vh;
+    background-color: #badA55;
+}
+.parallexBackgroundImagContainer{
+    width:100%;
+    height:100%;
+    background-image: url(../../assets/parallex_assets/mountain.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.parallexContainer0{
+    width:100%;
+    height:100%;
+    position: absolute;
+    z-index: 10;
+    /* background-color: #badA55; */
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+
+   
+}
+.parallexContainer1{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top: 0px;
+    z-index: 100;
+    /* background-color: red; */
+    background-image: url(../../assets/parallex_assets/parallexImage1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.parallexContainerFooter{
+    width:100%;
+    height:100%;
+    background-color:#081421;
+    backdrop-filter:blur(10px);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding: 100px;
+}

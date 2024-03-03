@@ -1,0 +1,25 @@
+.trailerContainer{
+    width:50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    
+    pointer-events:none;
+    opacity: 0;
+/* transition: 100ms all ease; */
+}
+body:hover {
+    .trailerContainer{
+    opacity: 1;
+    /* transition: 200ms all ease; */
+    }
+
+}

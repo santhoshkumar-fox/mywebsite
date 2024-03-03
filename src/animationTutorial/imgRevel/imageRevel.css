@@ -1,0 +1,40 @@
+.ImageRevelContainer{
+   width: 100vw;
+   height: 100vh;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.ImageContainer{
+    width:70vw;
+    height: 70vh;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.ImgShettercon{
+    content: '';
+    width:100%;
+    height:100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    /* z-index: 1; */
+    top: 0;
+    left: 0;
+    border-radius: 10;
+    overflow: hidden;
+}
+
+
+.imagText{
+    writing-mode: vertical-rl;
+    text-orientation: sideways-right;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 40px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}

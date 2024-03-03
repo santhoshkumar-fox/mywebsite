@@ -1,0 +1,23 @@
+.appbar2con{
+    width: 100vw;
+    height: 50px;
+    background-color: rgba(2, 2, 2, 0.44);
+    display: flex;
+    position:absolute;
+    top: 0px;
+    align-items: center;
+    justify-content: space-between;
+    padding:var(--padding40);
+}
+.headCon{
+    color: white;
+}
+.labelCon{
+    color: white;
+}
+.app_left_container{
+    
+}
+.app_right_container{
+
+}

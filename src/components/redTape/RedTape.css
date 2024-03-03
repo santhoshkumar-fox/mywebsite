@@ -1,0 +1,28 @@
+.redTapcontainer{
+    width:100px;
+    height:100vh;
+    background-color: var(--primaryColor);
+    position: absolute;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    padding: 20px 0px;
+}
+.tapeTitle{
+    width:40px;
+    margin-top: 0px;
+    margin:0px;
+    padding: 0px;
+    height: 40px;
+    display: flex;
+    flex-direction:column;
+    writing-mode: vertical-lr;
+    transform: translateX(-30px);
+}
+
+.tapeTitle:hover{
+    transition: all 1s ease;
+
+}
