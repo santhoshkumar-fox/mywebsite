@@ -13,7 +13,7 @@ function Dashbaord() {
   const [showLoading,setShowLoading] = useState(true);
   const [privousValue,setPriviousValue] = useState({x:0,y:0})
   useEffect(()=>{
-    setTimeout(() => {
+  setTimeout(() => {
       setShowLoading(false)
     }, 3000);
   },[]);
