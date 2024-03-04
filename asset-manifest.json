@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/santhoshkumar-fox/mywebsite/static/css/main.5a195ce5.css",
-    "main.js": "/santhoshkumar-fox/mywebsite/static/js/main.2a39b3a0.js",
-    "static/media/parallexImage1.png": "/santhoshkumar-fox/mywebsite/static/media/parallexImage1.d2565a027a0b25c6d6a2.png",
-    "static/media/mountain.jpg": "/santhoshkumar-fox/mywebsite/static/media/mountain.62ddd6e8ca88ea26424f.jpg",
-    "index.html": "/santhoshkumar-fox/mywebsite/index.html",
-    "main.5a195ce5.css.map": "/santhoshkumar-fox/mywebsite/static/css/main.5a195ce5.css.map",
-    "main.2a39b3a0.js.map": "/santhoshkumar-fox/mywebsite/static/js/main.2a39b3a0.js.map"
+    "main.css": "/mywebsite/static/css/main.c1f6ef78.css",
+    "main.js": "/mywebsite/static/js/main.2a39b3a0.js",
+    "static/media/parallexImage1.png": "/mywebsite/static/media/parallexImage1.d2565a027a0b25c6d6a2.png",
+    "static/media/mountain.jpg": "/mywebsite/static/media/mountain.62ddd6e8ca88ea26424f.jpg",
+    "index.html": "/mywebsite/index.html",
+    "main.c1f6ef78.css.map": "/mywebsite/static/css/main.c1f6ef78.css.map",
+    "main.2a39b3a0.js.map": "/mywebsite/static/js/main.2a39b3a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a195ce5.css",
+    "static/css/main.c1f6ef78.css",
     "static/js/main.2a39b3a0.js"
   ]
 }
