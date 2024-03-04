@@ -50,8 +50,6 @@ function Dashbaord() {
       {/* <ImageRevel/> */}
       {/* <Heropage/> */}
         <Trailer/>
-
-    
     </div>
   )
 }

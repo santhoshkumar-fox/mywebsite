@@ -5,11 +5,13 @@ import Screens from './screens'
 import { BrowserRouter } from 'react-router-dom'
 import Dashbord from './routers/main_page_routes'
 import Page_routes from './routers/main_page_routes'
+import Dashbaord from './portfolio_screens/Dashboard/dashbaord'
 function App() {
   return (
-   <BrowserRouter>
-   <Page_routes/>
-   </BrowserRouter>
+  //  <BrowserRouter>
+  //  <Page_routes/>
+  //  </BrowserRouter>
+  <Dashbaord/>
   )
 }
 
