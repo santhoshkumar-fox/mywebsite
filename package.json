@@ -1,7 +1,7 @@
 {
   "name": "portfolio-app",
   "version": "0.1.0",
-  "homepage": "https://github.com/santhoshkumar-fox/mywebsite",
+  "homepage": "https://santhoshkumar-fox.github.io/mywebsite",
   "private": true,
   "dependencies": {
     "@tanstack/react-table": "^8.9.3",
